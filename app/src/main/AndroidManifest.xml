@@ -10,6 +10,60 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ContainmentZoneAlertingApplication">
         <activity
+            android:name=".extras.AddressReceiver"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.LocationListAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.FeedAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.CommentFeedAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".activities.VerificationPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UserInfoFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UploadLocationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TrackerSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShowMatchedLocationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NewsFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MyLocationsMapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MatchedLocationsMapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CommentFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddressPickerMapsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,6 +72,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
