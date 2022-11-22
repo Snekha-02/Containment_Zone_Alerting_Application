@@ -28,7 +28,7 @@ android {
     sourceSets {
         main {
             java {
-                srcDirs 'src\\main\\java', 'src\\main\\java\\com.example.containmentzonealertingapplication\\activities', 'src\\main\\java\\2', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\activities', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\adapters', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\extras', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\models', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\roomdatabase', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\services', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\sharedpreferences'
+                srcDirs 'src\\main\\java', 'src\\main\\java\\com.example.containmentzonealertingapplication\\activities', 'src\\main\\java\\2', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\activities', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\adapters', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\extras', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\models', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\roomdatabase', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\services', 'src\\main\\java\\com\\example\\containmentzonealertingapplication\\sharedpreferences', 'src\\main\\java\\activities', 'src\\main\\java\\adapters', 'src\\main\\java\\extras', 'src\\main\\java\\models', 'src\\main\\java\\roomdatabase', 'src\\main\\java\\services', 'src\\main\\java\\sharedpreferences'
             }
         }
     }
