@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SriSuriyaPriyan/AndroidStudioProjects/ContainmentZoneAlertingApplication/app/src/main/res/drawable/btn_round.xml" value="0.237" />
         <entry key="..\:/Users/SriSuriyaPriyan/AndroidStudioProjects/ContainmentZoneAlertingApplication/app/src/main/res/layout/activity_address_picker_maps.xml" value="1.8" />
         <entry key="..\:/Users/SriSuriyaPriyan/AndroidStudioProjects/ContainmentZoneAlertingApplication/app/src/main/res/layout/activity_location_show_maps.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SriSuriyaPriyan/AndroidStudioProjects/ContainmentZoneAlertingApplication/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
