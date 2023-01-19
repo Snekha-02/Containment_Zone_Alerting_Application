@@ -6,6 +6,28 @@
         <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_address_picker_maps.xml" value="0.18888888888888888" />
         <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_location_show_maps.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_my_locations_maps.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_news_feed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_show_matched_locations.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_sign_up_old.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_tracker_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_upload_locations.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_user_info_form.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_user_info_form_old.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/activity_verification_page.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/comment_view.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/custom_toast.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/locationlist_view.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/post_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/toolbar_comment_feed.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/toolbar_feed.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/toolbar_menu.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/toolbar_post.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/toolbar_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/KARTHI/AndroidStudioProjects/Containment_Zone_Alerting_Application/app/src/main/res/layout/toolbar_signup_page.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/SriSuriyaPriyan/AndroidStudioProjects/ContainmentZoneAlertingApplication/app/src/main/res/drawable/btn_round.xml" value="0.237" />
         <entry key="..\:/Users/SriSuriyaPriyan/AndroidStudioProjects/ContainmentZoneAlertingApplication/app/src/main/res/font/font.xml" value="0.3046875" />
         <entry key="..\:/Users/SriSuriyaPriyan/AndroidStudioProjects/ContainmentZoneAlertingApplication/app/src/main/res/font/roboto.xml" value="0.3046875" />
