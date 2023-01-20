@@ -11,10 +11,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.extras.DateTimeHandler;
-import com.example.covid_19alertapp.models.Comment;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.DateTimeHandler;
+import com.example.containmentzonealertingapplication.models.Comment;
 import java.util.ArrayList;
 
 import static android.content.Context.MODE_PRIVATE;

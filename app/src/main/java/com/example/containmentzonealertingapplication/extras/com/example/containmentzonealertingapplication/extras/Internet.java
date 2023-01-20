@@ -1,5 +1,6 @@
 package com.example.containmentzonealertingapplication.extras;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.Network;
@@ -20,7 +21,7 @@ public abstract class Internet {
         ConnectivityManager cm =
                 (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
 
-        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        @SuppressLint("MissingPermission") NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
 
         return activeNetwork != null &&
                 activeNetwork.isConnectedOrConnecting();
@@ -47,10 +48,13 @@ public abstract class Internet {
             NetworkRequest.Builder builder = new NetworkRequest.Builder();
 
             connectivityManager.registerDefaultNetworkCallback(new ConnectivityManager.NetworkCallback(){
+
+                   // @SuppressLint("MissingPermission")
                     @Override
                     public void onAvailable(Network network) {
                         isNetworkConnected = true; // Global Static Variable
                     }
+                   // @SuppressLint("MissingPermission")
                     @Override
                     public void onLost(Network network) {
                         isNetworkConnected = false; // Global Static Variable

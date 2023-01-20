@@ -9,7 +9,7 @@ import android.util.Log;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import com.example.covid_19alertapp.R;
+import com.example.containmentzonealertingapplication.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

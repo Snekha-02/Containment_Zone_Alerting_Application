@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.example.covid_19alertapp.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.Constants;
 
 import static android.content.Context.MODE_PRIVATE;
 

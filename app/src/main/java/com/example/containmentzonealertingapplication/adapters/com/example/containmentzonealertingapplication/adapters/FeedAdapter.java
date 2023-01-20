@@ -16,9 +16,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.containmentzonealertingapplication.activities.NewsFeedActivity;
 import com.example.containmentzonealertingapplication.models.Post;
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.activities.CommentFeedActivity;
-import com.example.covid_19alertapp.models.Post;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.activities.CommentFeedActivity;
+
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -47,7 +47,7 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.MyViewHolder> 
 
     @SuppressLint("SetTextI18n")
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         holder.userName.setText(postList.get(position).getUserName());
         //Date and Time
         Calendar cal = Calendar.getInstance();

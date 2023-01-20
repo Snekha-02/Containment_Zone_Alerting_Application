@@ -17,4 +17,15 @@
     <string name="uploadFinished_progressbar_text">Uploaded</string>
     <string name="upload_confirmation_negative">Upload failed</string>
     <string name="address_fetching_text">Fetching address</string>
+    <string name="notification_channel_name">Notification Channel</string>
+    <string name="notification_channel_description">Notification description</string>
+    <string name="promptToTrackNotificationTitle">PromptToNotificationT</string>
+    <string name="promptToTrackNotificationContent">promptToTrackNotificationContent</string>
+    <string name="trackingNotificationTitle">trackingNotificationTitle</string>
+    <string name="trackingNotificationContent">trackingNotificationContent</string>
+    <string name="dangerNotificationTitle">dangerNotificationTitle</string>
+    <string name="dangerNotificationContent">dangerNotificationContent</string>
+    <string name="permissions_dialogbox_explanation">permissions_dialogbox_explanation</string>
+    <string name="permissions_dialogbox_title">permissions_dialogbox_title</string>
+    <string name="permissions_dialogbox_negative">permissions_dialogbox_negative</string>
 </resources>

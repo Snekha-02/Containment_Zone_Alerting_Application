@@ -9,12 +9,12 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.work.WorkManager;
 
-import com.example.covid_19alertapp.activities.TrackerSettingsActivity;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.extras.LocationFetch;
-import com.example.covid_19alertapp.extras.LogTags;
-import com.example.covid_19alertapp.extras.Notifications;
-import com.example.covid_19alertapp.sharedPreferences.SettingsSharedPreferences;
+import com.example.containmentzonealertingapplication.activities.TrackerSettingsActivity;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.LocationFetch;
+import com.example.containmentzonealertingapplication.extras.LogTags;
+import com.example.containmentzonealertingapplication.extras.Notifications;
+import com.example.containmentzonealertingapplication.sharedPreferences.SettingsSharedPreferences;
 
 public class BackgroundLocationTracker extends Service {
 /*

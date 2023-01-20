@@ -15,8 +15,8 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.activities.TrackerSettingsActivity;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.activities.TrackerSettingsActivity;
 
 
 public abstract class Notifications {
@@ -97,7 +97,7 @@ public abstract class Notifications {
                 builder.setContentTitle(title)
                         .setContentText(content)
                         .setSmallIcon(R.drawable.ic_location_on)
-                        .setLargeIcon(BitmapFactory.decodeResource(Resources.getSystem(), R.drawable.appicon))
+                        .setLargeIcon(BitmapFactory.decodeResource(Resources.getSystem(), R.drawable.ic_location_on))
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
                         // Intent(Activity) that will start when the user taps the button
                         .setContentIntent(pendingIntent)

@@ -18,12 +18,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.containmentzonealertingapplication.activities.ShowMatchedLocationsActivity;
 import com.example.containmentzonealertingapplication.models.MatchedLocation;
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.activities.MatchedLocationsMapsActivity;
-import com.example.covid_19alertapp.extras.LogTags;
-import com.example.covid_19alertapp.models.MatchedLocation;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDao;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDatabase;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.activities.MatchedLocationsMapsActivity;
+import com.example.containmentzonealertingapplication.extras.LogTags;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDao;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDatabase;
 
 
 import java.util.ArrayList;
@@ -50,7 +49,7 @@ public class LocationListAdapter extends RecyclerView.Adapter<LocationListAdapte
 
     @SuppressLint("SetTextI18n")
     @Override
-    public void onBindViewHolder(@NonNull LocationListAdapter.MyViewHolder holder, final int position) {
+    public void onBindViewHolder(@NonNull LocationListAdapter.MyViewHolder holder, @SuppressLint("RecyclerView") final int position) {
 
         holder.location.setText(locationsList.get(position).getAddress());
         holder.dateTime.setText(locationsList.get(position).getMeaningfulDateTime());

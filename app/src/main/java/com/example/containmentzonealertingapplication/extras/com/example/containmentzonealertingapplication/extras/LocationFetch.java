@@ -1,5 +1,6 @@
 package com.example.containmentzonealertingapplication.extras;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.IntentSender;
@@ -9,7 +10,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import com.example.covid_19alertapp.roomdatabase.LocalDBContainer;
+import com.example.containmentzonealertingapplication.roomdatabase.LocalDBContainer;
 import com.google.android.gms.common.api.ResolvableApiException;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationAvailability;
@@ -226,6 +227,7 @@ public abstract class LocationFetch {
 
     }
 
+    @SuppressLint("MissingPermission")
     public static void startLocationUpdates() {
         //start the location update
         fusedLocationProviderClient.requestLocationUpdates(

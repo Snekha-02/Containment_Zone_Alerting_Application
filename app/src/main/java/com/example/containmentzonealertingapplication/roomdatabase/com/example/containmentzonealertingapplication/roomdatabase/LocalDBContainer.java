@@ -4,10 +4,10 @@ import android.content.Context;
 import android.location.Location;
 import android.util.Log;
 
-import com.example.covid_19alertapp.extras.LogTags;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocations;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDao;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDatabase;
+import com.example.containmentzonealertingapplication.extras.LogTags;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocations;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDao;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDatabase;
 
 import java.util.ArrayList;
 import java.util.List;

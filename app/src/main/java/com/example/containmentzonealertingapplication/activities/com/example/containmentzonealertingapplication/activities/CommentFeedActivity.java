@@ -88,12 +88,13 @@ public class CommentFeedActivity extends AppCompatActivity {
         floatingActionButton = findViewById(R.id.floatingActionButton_comment_feed);
         dialogBuilder = new AlertDialog.Builder(this).create();
         LayoutInflater inflater = this.getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.post_comment_view, null);
 
-        btn_submit = dialogView.findViewById(R.id.btn_submit_comment);
-        btn_cancel = dialogView.findViewById(R.id.btn_cancel_comment);
-        comment_editText = dialogView.findViewById(R.id.editText_comment);
-        dialogBuilder.setView(dialogView);
+        //View dialogView = inflater.inflate(R.layout.post_comment_view, null);
+
+        //btn_submit = dialogView.findViewById(R.id.btn_submit_comment);
+        //btn_cancel = dialogView.findViewById(R.id.btn_cancel_comment);
+        //comment_editText = dialogView.findViewById(R.id.editText_comment);
+        //dialogBuilder.setView(dialogView);
 
         btn_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
