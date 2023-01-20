@@ -15,7 +15,7 @@
             android:id="@+id/layout"
             android:layout_width="match_parent"
             android:layout_height="235dp"
-            android:background="@color/color_top_part_background">
+            android:background="#eded12">
 
             <include
                 layout="@layout/toolbar_user_info_form_page"
@@ -92,9 +92,9 @@
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:fontFamily="@font/roboto"
-                android:hint="@string/full_name_hint"
+                android:hint="Enter your full name"
                 android:inputType="textPersonName"
-                android:textColorHint="@color/color_user_info_edit_text" />
+                android:textColorHint="#e4e4e4" />
 
 
             <TextView
@@ -109,11 +109,11 @@
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:clickable="false"
-                android:hint="@string/home_address_hint"
+                android:hint="Enter your Address"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
                 android:textSize="18.2sp"
-                android:textColorHint="@color/color_user_info_edit_text"
+                android:textColorHint="#e4e4e4"
                 />
 
             <TextView
@@ -131,8 +131,8 @@
                 android:paddingBottom="5dp"
                 android:textSize="18.2sp"
                 android:fontFamily="@font/roboto"
-                android:hint="@string/work_address_hint"
-                android:textColorHint="@color/color_user_info_edit_text" />
+                android:hint="Enter your Work Address"
+                android:textColorHint="#e4e4e4" />
 
 
             <EditText
@@ -148,9 +148,9 @@
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:fontFamily="@font/roboto"
-                android:hint="@string/dob_hint"
+                android:hint="Enter your DOB"
                 android:inputType="date"
-                android:textColorHint="@color/color_user_info_edit_text" />
+                android:textColorHint="#e4e4e4" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -173,7 +173,7 @@
                     android:paddingTop="18dp"
                     android:paddingEnd="50dp"
                     android:paddingBottom="18dp"
-                    android:text="@string/save_button_text"
+                    android:text="Save"
                     android:textColor="#FFF"
                     android:textSize="16sp" />
 

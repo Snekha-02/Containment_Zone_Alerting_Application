@@ -39,7 +39,8 @@
             android:layout_alignParentBottom="true"
             android:layout_margin="18dp"
             android:src="@drawable/ic_create_black_24dp"
-            app:backgroundTint="#FF1744" />
+            app:backgroundTint="#FF1744"
+            android:layout_alignParentRight="true" />
     </RelativeLayout>
 
 
