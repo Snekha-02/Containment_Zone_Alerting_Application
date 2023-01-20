@@ -16,11 +16,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.extras.LogTags;
-import com.example.covid_19alertapp.services.BackgroundWorker;
-import com.example.covid_19alertapp.sharedPreferences.MiscSharedPreferences;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.LogTags;
+import com.example.containmentzonealertingapplication.services.BackgroundWorker;
+import com.example.containmentzonealertingapplication.sharedPreferences.MiscSharedPreferences;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

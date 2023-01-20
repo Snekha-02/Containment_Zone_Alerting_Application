@@ -3,6 +3,7 @@ package com.example.containmentzonealertingapplication.activities;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.location.Location;
@@ -15,10 +16,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.AddressReceiver;
-import com.example.covid_19alertapp.extras.Internet;
-import com.example.covid_19alertapp.extras.LogTags;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.AddressReceiver;
+import com.example.containmentzonealertingapplication.extras.Internet;
+import com.example.containmentzonealertingapplication.extras.LogTags;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -120,6 +121,7 @@ public class AddressPickerMapsActivity extends FragmentActivity implements
     }
 
 
+    @SuppressLint("MissingPermission")
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;

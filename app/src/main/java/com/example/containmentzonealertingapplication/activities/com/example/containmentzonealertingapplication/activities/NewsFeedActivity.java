@@ -10,9 +10,9 @@ import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.adapters.FeedAdapter;
-import com.example.covid_19alertapp.models.Post;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.adapters.FeedAdapter;
+import com.example.containmentzonealertingapplication.models.Post;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -29,7 +29,7 @@ public class NewsFeedActivity extends AppCompatActivity {
     DatabaseReference reference;
     RecyclerView recyclerView;
     ArrayList<Post> list;
-    com.example.covid_19alertapp.adapters.FeedAdapter FeedAdapter;
+    com.example.containmentzonealertingapplication.adapters.FeedAdapter FeedAdapter;
     private Parcelable recyclerViewState;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

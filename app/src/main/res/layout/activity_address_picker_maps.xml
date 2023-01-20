@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="5"
-            android:text="@string/map_text"
+            android:text="map_text"
             android:textSize="14sp" />
 
         <Button
@@ -42,7 +42,7 @@
             android:layout_weight="1"
             android:enabled="false"
             android:onClick="confirmClicked"
-            android:text="@string/map_confirm_button_text"
+            android:text="map_confirm_button_text"
             android:textSize="12sp" />
     </LinearLayout>
 

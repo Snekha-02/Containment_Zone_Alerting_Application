@@ -8,12 +8,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.models.MapMarkerLocation;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocations;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDao;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDatabase;
-import com.example.covid_19alertapp.sharedPreferences.UserInfoSharedPreferences;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.models.MapMarkerLocation;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocations;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDao;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDatabase;
+import com.example.containmentzonealertingapplication.sharedPreferences.UserInfoSharedPreferences;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;

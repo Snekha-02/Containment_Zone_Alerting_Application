@@ -15,7 +15,7 @@
             android:id="@+id/layout"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@color/color_top_part_background">
+            android:background="#eded12">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -82,10 +82,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/roboto"
-                android:text="@string/loading_progressbar_text"
+                android:text="loading_progressbar_text"
                 android:textAlignment="center"
-                android:textColor="#606060"
-                android:textSize="14sp"
+                android:textColor="#000000"
+                android:textSize="14dp"
                 android:visibility="invisible" />
 
             <ProgressBar

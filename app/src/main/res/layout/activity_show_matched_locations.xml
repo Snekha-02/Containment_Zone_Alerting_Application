@@ -19,7 +19,7 @@
         android:id="@+id/progressText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/loading_progressbar_text" />
+        android:text="loading_progressbar_text" />
 
 
     <Button
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="retryClicked"
-        android:text="@string/retry_button_text"
+        android:text="Retry"
         android:textSize="12sp" />
 
     <ScrollView

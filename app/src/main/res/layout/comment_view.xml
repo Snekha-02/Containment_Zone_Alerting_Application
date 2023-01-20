@@ -28,8 +28,10 @@
                 android:drawablePadding="8dp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="User Name"
-                android:textColor="@color/color_user_name_feed"
-                android:textSize="17sp" />
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:drawableLeft="@drawable/ic_user_small"
+                android:layout_marginLeft="8dp" />
             <TextView
                 android:id="@+id/comment_view_author_title"
                 android:layout_width="wrap_content"
@@ -39,7 +41,9 @@
                 android:visibility="invisible"
                 android:textSize="12sp"
                 android:textColor="#808080"
-                android:text="(Author)" />
+                android:text="(Author)"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="3dp" />
 
         </LinearLayout>
 
@@ -55,7 +59,9 @@
             android:fontFamily="@font/roboto"
             android:textColor="#EE171717"
             android:layout_marginEnd="10dp"
-            android:textAlignment="textEnd"/>
+            android:textAlignment="textEnd"
+            android:layout_marginRight="10dp"
+            android:gravity="end" />
     </LinearLayout>
 
     <LinearLayout
@@ -91,8 +97,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="5dp"
-        android:background="@color/color_end_line"/>
-
-
+        android:background="#00E676"/>
 
 </LinearLayout>
