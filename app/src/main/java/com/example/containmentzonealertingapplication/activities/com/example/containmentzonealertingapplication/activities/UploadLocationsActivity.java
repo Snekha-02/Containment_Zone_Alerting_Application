@@ -15,16 +15,16 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.extras.LogTags;
-import com.example.covid_19alertapp.models.InfectedLocations;
-import com.example.covid_19alertapp.roomdatabase.LocalDBContainer;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocations;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDao;
-import com.example.covid_19alertapp.roomdatabase.VisitedLocationsDatabase;
-import com.example.covid_19alertapp.sharedPreferences.MiscSharedPreferences;
-import com.example.covid_19alertapp.sharedPreferences.UserInfoSharedPreferences;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.LogTags;
+import com.example.containmentzonealertingapplication.models.InfectedLocations;
+import com.example.containmentzonealertingapplication.roomdatabase.LocalDBContainer;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocations;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDao;
+import com.example.containmentzonealertingapplication.roomdatabase.VisitedLocationsDatabase;
+import com.example.containmentzonealertingapplication.sharedPreferences.MiscSharedPreferences;
+import com.example.containmentzonealertingapplication.sharedPreferences.UserInfoSharedPreferences;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseException;
@@ -140,7 +140,7 @@ implement verification by medical report photo here
 
             builder.setMessage(getText(R.string.backPressed_during_upload))
                     .setCancelable(false)
-                    .setPositiveButton(getText(R.string.backPressed_during_upload_positive), new DialogInterface.OnClickListener() {
+                    .setPositiveButton(getText(R.string.backPressed_during_upload), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.dismiss();
@@ -362,7 +362,7 @@ implement verification by medical report photo here
         builder.setTitle(getText(R.string.upload_confirmation_title))
                 .setMessage(getText(R.string.upload_confirmation_message))
                 .setCancelable(false)
-                .setPositiveButton(getText(R.string.upload_confirmation_positive), new DialogInterface.OnClickListener() {
+                .setPositiveButton(getText(R.string.upload_confirmation_message), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();

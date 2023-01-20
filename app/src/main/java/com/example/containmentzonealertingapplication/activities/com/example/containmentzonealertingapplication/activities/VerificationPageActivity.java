@@ -16,9 +16,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.widget.Toolbar;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.models.UserInfoData;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.models.UserInfoData;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -33,7 +33,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import static com.example.covid_19alertapp.activities.SignUpActivity.verification;
+import static com.example.containmentzonealertingapplication.activities.SignUpActivity.verification;
 
 
 public class VerificationPageActivity extends AppCompatActivity {

@@ -20,10 +20,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.extras.LogTags;
-import com.example.covid_19alertapp.extras.Permissions;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.LogTags;
+import com.example.containmentzonealertingapplication.extras.Permissions;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
@@ -239,14 +239,15 @@ public class SignUpActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         //resolve unresolved permissions
 
-        switch (requestCode){
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
 
             case Constants.PERMISSION_CODE:
 
                 try {
                     this.permissions.resolvePermissions(permissions, grantResults);
-                }catch (Exception e){
-                    Log.d(LogTags.Permissions_TAG, "onRequestPermissionsResult: "+e.getMessage());
+                } catch (Exception e) {
+                    Log.d(LogTags.Permissions_TAG, "onRequestPermissionsResult: " + e.getMessage());
                 }
 
                 break;

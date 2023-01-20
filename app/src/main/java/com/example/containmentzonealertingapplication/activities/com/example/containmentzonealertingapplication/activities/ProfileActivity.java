@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.covid_19alertapp.R;
+import com.example.containmentzonealertingapplication.R;
 
 public class ProfileActivity extends AppCompatActivity {
 

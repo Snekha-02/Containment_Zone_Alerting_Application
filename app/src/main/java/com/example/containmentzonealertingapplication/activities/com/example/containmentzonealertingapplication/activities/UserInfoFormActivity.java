@@ -16,11 +16,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.AddressReceiver;
-import com.example.covid_19alertapp.models.UserInfoData;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.extras.LogTags;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.AddressReceiver;
+import com.example.containmentzonealertingapplication.models.UserInfoData;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.LogTags;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

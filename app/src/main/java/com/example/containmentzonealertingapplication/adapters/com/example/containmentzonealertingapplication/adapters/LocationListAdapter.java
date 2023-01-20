@@ -15,6 +15,9 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.containmentzonealertingapplication.activities.ShowMatchedLocationsActivity;
+import com.example.containmentzonealertingapplication.models.MatchedLocation;
 import com.example.covid_19alertapp.R;
 import com.example.covid_19alertapp.activities.MatchedLocationsMapsActivity;
 import com.example.covid_19alertapp.extras.LogTags;
@@ -35,6 +38,10 @@ public class LocationListAdapter extends RecyclerView.Adapter<LocationListAdapte
         this.context = context;
         this.locationsList = locationsList;
     }
+
+    public LocationListAdapter(ShowMatchedLocationsActivity context, ArrayList<MatchedLocation> matchedHomeLocations) {
+    }
+
     @NonNull
     @Override
     public LocationListAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

@@ -17,13 +17,13 @@ import android.widget.Button;
 import android.widget.Switch;
 import android.widget.Toast;
 
-import com.example.covid_19alertapp.R;
-import com.example.covid_19alertapp.extras.Constants;
-import com.example.covid_19alertapp.extras.LocationFetch;
-import com.example.covid_19alertapp.extras.LogTags;
-import com.example.covid_19alertapp.extras.Notifications;
-import com.example.covid_19alertapp.extras.Permissions;
-import com.example.covid_19alertapp.services.BackgroundLocationTracker;
+import com.example.containmentzonealertingapplication.R;
+import com.example.containmentzonealertingapplication.extras.Constants;
+import com.example.containmentzonealertingapplication.extras.LocationFetch;
+import com.example.containmentzonealertingapplication.extras.LogTags;
+import com.example.containmentzonealertingapplication.extras.Notifications;
+import com.example.containmentzonealertingapplication.extras.Permissions;
+import com.example.containmentzonealertingapplication.services.BackgroundLocationTracker;
 
 public class TrackerSettingsActivity extends AppCompatActivity {
 /*
@@ -202,14 +202,15 @@ settings (currently only contains location on/off)
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         //resolve unresolved permissions
 
-        switch (requestCode){
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
 
             case Constants.PERMISSION_CODE:
 
                 try {
                     this.permissions.resolvePermissions(permissions, grantResults);
-                }catch (Exception e){
-                    Log.d(LogTags.Permissions_TAG, "onRequestPermissionsResult: "+e.getMessage());
+                } catch (Exception e) {
+                    Log.d(LogTags.Permissions_TAG, "onRequestPermissionsResult: " + e.getMessage());
                 }
 
                 break;

@@ -7,4 +7,14 @@
     <string name="title_activity_maps">Map</string>
     <string name="cant_upload_twice_message">Cannot upload twice</string>
     <string name="permissions_dialogbox_positive">Permission allowed</string>
+    <string name="internet_disconnected_text">Disconnected</string>
+    <string name="no_internet_toast">No internet</string>
+    <string name="finished_progressbar_text">Successfully finished</string>
+    <string name="no_match_found_text">No Match found !</string>
+    <string name="local_db_empty_text">Empty data</string>
+    <string name="loading_progressbar_text">Loading...</string>
+    <string name="backPressed_during_upload">Don\'t Press Back Button</string>
+    <string name="uploadFinished_progressbar_text">Uploaded</string>
+    <string name="upload_confirmation_negative">Upload failed</string>
+    <string name="address_fetching_text">Fetching address</string>
 </resources>

@@ -14,6 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.containmentzonealertingapplication.activities.NewsFeedActivity;
+import com.example.containmentzonealertingapplication.models.Post;
 import com.example.covid_19alertapp.R;
 import com.example.covid_19alertapp.activities.CommentFeedActivity;
 import com.example.covid_19alertapp.models.Post;
@@ -31,6 +33,9 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.MyViewHolder> 
     public FeedAdapter(Context c, ArrayList<Post> postList) {
         context = c;
         this.postList = postList;
+    }
+
+    public FeedAdapter(NewsFeedActivity c, ArrayList<Post> list) {
     }
 
 

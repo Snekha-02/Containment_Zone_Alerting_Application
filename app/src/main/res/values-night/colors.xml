@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="color_item_view_relief_line">#ffffff</color>
+    <color name="colorActive">#e4e4e4</color>
 </resources>

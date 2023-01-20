@@ -8,7 +8,7 @@ import android.os.Handler;
 import android.os.ResultReceiver;
 import android.util.Log;
 
-import com.example.covid_19alertapp.activities.ShowMatchedLocationsActivity;
+import com.example.containmentzonealertingapplication.activities.ShowMatchedLocationsActivity;
 
 public class AddressReceiver extends ResultReceiver {
 
